@@ -56,8 +56,8 @@ public class PersonHandler {
                 // append `stringRepresentation` to `result` variable
             // end loop
 
-        for(array[] name : personArray){
-
+        for(Person x : personArray){
+            result = result + x.toString();
         }
 
         return result;
